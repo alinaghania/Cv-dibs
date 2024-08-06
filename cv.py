@@ -137,26 +137,3 @@ Vidéo TikTok utilisant l'IA générative
 st.write("""
 Pour cette vidéo, j'ai utilisé l'IA générative UdIO pour écrire une chanson dont les paroles ont été rédigées par ChatGPT. J'ai ensuite envoyé ces paroles au modèle UdIO pour créer une musique destinée à rendre plus ludique l'apprentissage de la philosophie sur le thème de la "justice".
 """)
-st.markdown(
-    """
-    <style>
-    .side-image {
-        position: fixed;
-        right: 0;
-        top: 0;
-        width: 25%;
-        height: auto;
-        opacity: 0.95;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-# Display the side image
-st.markdown(
-    """
-    <img src="https://img.freepik.com/vecteurs-premium/stylo-plume-or-fer_105895-332.jpg" class="side-image">
-    """,
-    unsafe_allow_html=True
-)
