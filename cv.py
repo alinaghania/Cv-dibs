@@ -35,7 +35,7 @@ efrei_logo = Image.open(efrei_logo_path)
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
 with col1:
-    st.image(profile_pic, width=230)
+    st.write("welcome ! ")
 
 with col2:
     st.title(NAME)
