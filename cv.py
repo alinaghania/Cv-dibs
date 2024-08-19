@@ -27,7 +27,7 @@ with open(css_file) as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
-profile_pic = Image.open(profile_pic_path)
+#profile_pic = Image.open(profile_pic_path)
 qrcode_image = Image.open(qrcode_image_path)
 eureka_logo = Image.open(eureka_logo_path)
 efrei_logo = Image.open(efrei_logo_path)
